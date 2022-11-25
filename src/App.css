@@ -110,7 +110,7 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 5px 0;
   background-color: #121212;
 }
 
@@ -184,18 +184,12 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 12px 20px;
+  padding: 9px 17px;
   font-size: 18px;
   margin-left: 18px;
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
-}
-
-@media screen and (min-width: 1200px) {
-  body {
-    overflow: hidden;
-  }
 }
 
 .navbar-text button span {
@@ -281,11 +275,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 210px 0 100px 0;
+  padding: 200px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
-  filter: hue-rotate(45deg);
   background-repeat: no-repeat;
 }
 
@@ -640,7 +633,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 40px 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
